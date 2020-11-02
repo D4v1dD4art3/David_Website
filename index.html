@@ -1,152 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>David Duarte</title>
-    <link rel="icon" type="image/png" href="./letra_d.jpg">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="./Style.css">
-    <!-- <link rel="stylesheet" href="./media.css" media="screen and (max-width:768px)"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-</head>
-<i class="icon-menu burger-button" id="burger-menu" ></i>
-<body>
-    
+    <link rel="icon" type="image/png" href="./assets/images/letra_d.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/Style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <i class="icon-menu burger-button" id="burger-menu"></i>
+  <body>
     <header class="header">
-        <div class="container">
-            <figure class="logo">
-                <img src="./david_loco.png " alt="Logo" height="50px" width="200px">
-            </figure>
-            <nav class="menu" >
-                <ul>
-                    <li class="logo_2"><img src="./logo_3.png" alt=" logo_3" width="200px" height="200px" ></li>
-                    <li><a class="button" href="#Portafolio">Portafolio</a></li>
-                    <li><a class="button" href="#Experiencia">Experiencia</a></li>
-                    <li><a class="button" href="#Trabajemos_juntos">Trabajemos juntos</a></li>
-                </ul>
-            </nav>
-        </div>      
+      <div class="container">
+        <figure class="logo">
+          <img src="./david_loco.png " alt="Logo" height="50px" width="200px" />
+        </figure>
+        <nav class="menu">
+          <ul>
+            <li class="logo_2">
+              <img
+                src="./assets/images/logo_3.png"
+                alt=" logo_3"
+                width="200px"
+                height="200px"
+              />
+            </li>
+            <li><a class="button" href="#Portafolio">Portafolio</a></li>
+            <li><a class="button" href="#Experiencia">Experiencia</a></li>
+            <li>
+              <a class="button" href="#Trabajemos_juntos">Trabajemos juntos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-     <section class="hero">
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>David Duarte</strong> <br />
+          desarrolador <strong>Javascript</strong> <br />y tengo pasion por
+          <br />
+          las tecnologias <strong>frontend</strong>
+        </h1>
+        <img
+          class="hero-image"
+          width="500px"
+          src="./assets/images/piano_david.jpg"
+          alt="imagen de portada"
+        />
+      </div>
+    </section>
+    <section id="Portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos destacados)</h2>
+        <article class="project">
+          <div class="project-detailes">
+            <h3 class="project-title">Platzi video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date">
+              <small><strong>fecha:</strong> 02/14/2020 </small>
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes encontrarme:</strong> www.facebook/DavidDuarte
+              </small>
+            </p>
+            <p class="project-description">
+              En este perfil puedes ver mi nombre y <br />
+              todo mis atributos que quieras saber de mi, asi como mis
+              habilidades se podria decir mucho mas pero ya lo veras a
+              continuacion
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              width="500px"
+              class="project-image"
+              src="./assets/images/platzi-video-react-native.png"
+              alt="projecto"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section id="Portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos destacados)</h2>
+        <article class="project">
+          <div class="project-detailes">
+            <h3 class="project-title">Platzi video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date">
+              <small><strong>fecha:</strong> 02/14/2020 </small>
+            </p>
+            <p class="project-url">
+              <small
+                ><strong>Puedes encontrarme:</strong> www.facebook/DavidDuarte
+              </small>
+            </p>
+            <p class="project-description">
+              En este perfil puedes ver mi nombre y <br />
+              todo mis atributos que quieras saber de mi, asi como mis
+              habilidades se podria decir mucho mas pero ya lo veras a
+              continuacion
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <img
+              class="project-image"
+              src="./assets/images/platzi-video-react-native.png"
+              alt="projecto"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <div class="container">
+      <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+      <section id="Experiencia" class="event-list">
         <div class="container">
-            <h1> Hola! Soy <strong>David Duarte</strong> <br> desarrolador <strong>Javascript</strong> <br>y tengo pasion por <br> las tecnologias <strong>frontend</strong></h1>
-            <img class="hero-image" width="500px" src="./piano_david.jpg" alt="imagen de portada"> 
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img
+                class="event-image"
+                width="500px"
+                src="./piano_david.jpg"
+                alt="una foto mia"
+              />
+            </figure>
+            <div class="event-details">
+              <h3 class="event-title">Clases de piano en Venezuela</h3>
+              <p class="event-discription">
+                Cuando estaba en mi primer ano de bachillerato aprendi a tocar
+                el piano
+              </p>
+              <a
+                class="event-url"
+                href="https://www.youtube.com/watch?v=ccXQoUmdT-M"
+                target="_blank"
+                >ver video aqui</a
+              >
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <video
+                class="html-video"
+                src="./assets//video/f8.mp4"
+                width="1280"
+                height="720"
+                controls
+              ></video>
+              <!-- <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia"> -->
+            </figure>
+            <div class="event-details">
+              <h3 class="event-title">Clases de piano en Venezuela</h3>
+              <p class="event-discription">
+                Cuando estaba en mi primer ano de bachillerato aprendi a tocar
+                el piano
+              </p>
+              <a
+                class="event-url"
+                href="https://www.youtube.com/watch?v=ccXQoUmdT-M"
+                target="_blank"
+                >ver video aqui</a
+              >
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <div class="video-details">
+                <iframe
+                  class="video-youtube"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/i1819Pr1ln4"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <!-- <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia"> -->
+            </figure>
+            <div class="event-details">
+              <h3 class="event-title">Clases de piano en Venezuela</h3>
+              <p class="event-discription">
+                Cuando estaba en mi primer ano de bachillerato aprendi a tocar
+                el piano
+              </p>
+              <a
+                class="event-url"
+                href="https://www.youtube.com/watch?v=ccXQoUmdT-M"
+                target="_blank"
+                >ver video aqui</a
+              >
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img
+                class="event-image"
+                width="500px"
+                src="./assets/images/piano_david.jpg"
+                alt="una foto mia"
+              />
+            </figure>
+            <div class="event-details">
+              <h3 class="event-title">Clases de piano en Venezuela</h3>
+              <p class="event-discription">
+                Cuando estaba en mi primer ano de bachillerato aprendi a tocar
+                el piano
+              </p>
+              <a
+                class="event-url"
+                href="https://www.youtube.com/watch?v=ccXQoUmdT-M"
+                target="_blank"
+                >ver video aqui</a
+              >
+            </div>
+          </article>
         </div>
-    </section>
-    <section id="Portafolio" class="portfolio">
-        <div class="container">
-            <h2>Portafolio (Proyectos destacados)</h2>
-            <article class="project">
-                <div class="project-detailes">
-                    <h3 class="project-title">Platzi video</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>fecha:</strong> 02/14/2020 </small></p>
-                    <p class="project-url"><small><strong>Puedes encontrarme:</strong> www.facebook/DavidDuarte </small></p>
-                    <p class="project-description"> En este perfil puedes ver mi nombre y <br> todo mis atributos que quieras saber de mi, asi como mis habilidades se podria decir mucho mas pero ya lo veras a continuacion</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img width="500px" class="project-image" src="./platzi-video-react-native.png" alt="projecto">
-                </figure>
-            </article>
-        </div>  
-    </section>
-    <section id="Portafolio" class="portfolio">
-        <div class="container">
-            <h2>Portafolio (Proyectos destacados)</h2>
-            <article class="project">
-                <div class="project-detailes">
-                    <h3 class="project-title">Platzi video</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>fecha:</strong> 02/14/2020 </small></p>
-                    <p class="project-url"><small><strong>Puedes encontrarme:</strong> www.facebook/DavidDuarte </small></p>
-                    <p class="project-description"> En este perfil puedes ver mi nombre y <br> todo mis atributos que quieras saber de mi, asi como mis habilidades se podria decir mucho mas pero ya lo veras a continuacion</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="./platzi-video-react-native.png" alt="projecto">
-                </figure>
-            </article>
-        </div>  
-    </section>
-    
-     <div class="container">
-        <h2 class="event-list-title">Mas sobre mi experiencia</h2>
-        <section id="Experiencia" class="event-list">
-            <div class="container">
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia">
-                    </figure>
-                    <div class="event-details">
-                     <h3 class="event-title">Clases de piano en Venezuela</h3>
-                    <p class="event-discription">Cuando estaba en mi primer ano de bachillerato aprendi a tocar el piano</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=ccXQoUmdT-M" target="_blank">ver video aqui</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <video class="html-video" src="../cursoDeDesarrolloWeb/responsive-design-portafolio-master/videos/f8.mp4" width="1280" height="720" controls></video>
-                        <!-- <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia"> -->
-                    </figure>
-                    <div class="event-details">
-                     <h3 class="event-title">Clases de piano en Venezuela</h3>
-                    <p class="event-discription">Cuando estaba en mi primer ano de bachillerato aprendi a tocar el piano</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=ccXQoUmdT-M" target="_blank">ver video aqui</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <div class="video-details">
-                            <iframe class="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/i1819Pr1ln4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <!-- <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia"> -->
-                    </figure>
-                    <div class="event-details">
-                     <h3 class="event-title">Clases de piano en Venezuela</h3>
-                    <p class="event-discription">Cuando estaba en mi primer ano de bachillerato aprendi a tocar el piano</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=ccXQoUmdT-M" target="_blank">ver video aqui</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <img class="event-image" width="500px"  src="./piano_david.jpg" alt="una foto mia">
-                    </figure>
-                    <div class="event-details">
-                     <h3 class="event-title">Clases de piano en Venezuela</h3>
-                    <p class="event-discription">Cuando estaba en mi primer ano de bachillerato aprendi a tocar el piano</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=ccXQoUmdT-M" target="_blank">ver video aqui</a>
-                    </div>
-                </article>
-            </div>   
+      </section>
+    </div>
+    <section id="Trabajemos_juntos" class="contact">
+      <div class="container">
+        <form action="/sucripcion/" class="form-email">
+          <h3>Hagamos un proyecto juntos</h3>
+          <input type="text" placeholder="Dejame tu email" />
+          <button>Enviar</button>
+        </form>
+        <section class="social">
+          <div class="container">
+            <i
+              href="https://gmail.com/davidduarte"
+              class="social-link icon-gmail"
+            ></i>
+            <i
+              href="https://twitter.com/davidduarte"
+              class="social-link icon-twitter"
+            ></i>
+            <i
+              href="https://facebook.com/davidduarte"
+              class="social-link icon-facebook"
+            ></i>
+            <i
+              href="https://github.com/davidduarte"
+              class="social-link icon-github"
+            ></i>
+            <i
+              href="https://instagram.com/davidduarte"
+              class="social-link icon-instagram"
+            ></i>
+          </div>
         </section>
-    </div> 
-     <section id="Trabajemos_juntos" class="contact">
-        <div class="container">
-            <form action="/sucripcion/" class="form-email">
-                <h3>Hagamos un proyecto juntos</h3>
-                <input type="text" placeholder="Dejame tu email">
-                <button>Enviar</button>
-            </form>
-            <section class="social">
-                <div class="container"> 
-                    <i href="https://gmail.com/davidduarte" class="social-link icon-gmail"></i>
-                    <i href="https://twitter.com/davidduarte" class="social-link icon-twitter"></i>
-                    <i href="https://facebook.com/davidduarte" class="social-link icon-facebook"></i>
-                    <i href="https://github.com/davidduarte" class="social-link icon-github"></i>
-                    <i href="https://instagram.com/davidduarte" class="social-link icon-instagram"></i>
-                </div>
-            </section>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>
+            Curso de Desarrollo web
+            <img src="./assets/images/platzi.png" alt="logo" width="80px" />
+          </p>
         </div>
-    </section> 
-      <footer class="footer"> 
-        <div class="container">
-            <div>
-                <p>Curso de Desarrollo web <img src="./platzi.png" alt="logo" width="80px" ></p> 
-            </div>
-            <div>
-                <p>dising with 💘 by <a href="https://facebook/davidduarte">davidduarte</a></p>
-            </div>
-        </div>  
-    </footer> 
+        <div>
+          <p>
+            dising with 💘 by
+            <a href="https://facebook/davidduarte">davidduarte</a>
+          </p>
+        </div>
+      </div>
+    </footer>
     <!-- burgerButton.addEventListener('click', ocultarAlClick)
         
         function ocultarAlClick() {
@@ -154,32 +282,6 @@
                 menu.classList.remove('is-active')
             }
         } -->
-    <script>
-        
-        //const experiencia = document.querySelector('.Experiencia')
-        const ipad = window.matchMedia('screen and (max-width: 767px)')
-        const menu = document.querySelector('.menu')
-        const burgerButton = document.querySelector('#burger-menu')
-
-        ipad.addListener(validation)
-
-        function validation(event) {
-            if (event.matches) {
-                burgerButton.addEventListener('click', ocultarMostrar)
-            }else {
-                burgerButton.removeEventListener('click', ocultarMostrar)
-            }
-        }
-
-        validation(ipad)
-
-        function ocultarMostrar() {
-            if (menu.classList.contains('is-active')) {
-                menu.classList.remove('is-active')
-            } else {
-                menu.classList.add('is-active')
-            }
-        }
-    </script>    
-</body> 
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
