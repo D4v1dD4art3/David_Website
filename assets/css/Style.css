@@ -242,8 +242,6 @@ img {
   flex-shrink: 0;
 }
 .event-image {
-  width: 480px;
-  height: 200px;
   object-fit: cover;
   margin: 0px;
 }
@@ -269,7 +267,7 @@ img {
   margin-left: 40px;
 }
 .contact {
-  background-image: url("../images/Moises_david.jpg");
+  background-image: url("../images/Moises_david.png");
   display: flex;
   height: 150px;
   justify-content: space-between;
@@ -597,10 +595,8 @@ img {
   }
 }
 .html-video {
-  /* esta seccion es un video insertado con html */
   width: 100%;
   height: auto;
-  /* max-width: 100%; */
 }
 .video-youtube {
   width: 100%;
